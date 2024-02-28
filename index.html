@@ -1,0 +1,8 @@
+
+<h1>Welcome to MineGame</h1>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const tID = 'gameid';
+    let loc = "minegame://game?gameid=" + urlParams.get(tID);
+    document.write('<h2><strong><a href="' + loc + '">Click Me</a></strong></h2>');
+</script>
